@@ -1,7 +1,14 @@
 # Intel-4th-Gen
 This LLM AI demo is running on Intel 4th Gen Xeon processor (Codename: Sapphire Rapid)
 
-SFT (Supervised Fine Tuning) contains 3 scripts to execute the following task:
+Installation: 
+pip install -r requirements.txt
+
+Introduction:
+
+Supervised fine-tuning, involves adapting a pre-trained Language Model (LLM) to a specific downstream task using labeled data. In supervised fine-tuning, the finetuning data is collected from a set of responses validated before hand. That’s the main difference to the unsupervised techniques, where data is not validated before hand. While LLM training is (usually) unsupervised, Finetuning is (usually) supervised.
+
+SFTT (Supervised Fine Tuning Trainer) contains 3 scripts to execute the following task:
 - Supervised Fine Tuning with HuggingFace Trainer API
 
 How to run: ./fine_tuning.sh
