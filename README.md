@@ -22,18 +22,23 @@ Dataset: mlabonne/guanaco-llama2-1k [1000 Samples]
 Configuration: Bfloat16, use_ipex, max_seq_length=512, num_of_epochs=1
 Time to tune: 1 hour 45 minutes 
   
-![SFT_Llama2](https://github.com/allenwsh82/Intel-4th-Gen/assets/44453417/b09ae9d8-9cc0-49c9-bf30-a5cd8e8d6388)
+![SFT_Llama2](https://github.com/allenwsh82/Intel_SPR/assets/44453417/64330f04-9f66-438e-83eb-be28b25c89cd)
+
+![SFT_Llama2_2](https://github.com/allenwsh82/Intel_SPR/assets/44453417/1bea45bd-9f4a-493c-8798-9d7fdcaafbf6)
+
 
 - Inference Fine Tuned Llama-2-7b with IPEX
 
 How to run: ./inference_with_IPEX.sh
   
-![Inference_Llama2_IPEX](https://github.com/allenwsh82/Intel-4th-Gen/assets/44453417/3965cbe7-46de-4b6e-a282-9abd679e97bb)
+![Inference_Llama2_IPEX](https://github.com/allenwsh82/Intel_SPR/assets/44453417/1a123121-d301-40c3-ac88-c3b2de4b7e33)
+
   
 - Inference Fine Tuned Llama-2-7b with INT4
 
 How to run: ./inference_with_INT4.sh
   
-![Inference_Llama2_INT4](https://github.com/allenwsh82/Intel-4th-Gen/assets/44453417/276be93e-c924-4102-b0c1-76f5b6e7f042)
+![Inference_Llama2_INT4](https://github.com/allenwsh82/Intel_SPR/assets/44453417/95b409e5-94de-4e02-a3a9-822ddbcd7102)
+
 
 
