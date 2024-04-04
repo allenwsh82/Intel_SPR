@@ -3,6 +3,16 @@ This LLM AI demo is running on Intel 4th Gen Xeon processor (Codename: Sapphire 
 
 SFT (Supervised Fine Tuning) contains 3 scripts to execute the following task:
 - Supervised Fine Tuning with HuggingFace Trainer API
+
+CPU: Intel 8480+ (56 cores), Memory usage: 140GB 
+Model: Llama-2-7b-chat-hf
+Dataset: mlabonne/guanaco-llama2-1k [1000 Samples]
+Configuration: 
+Bfloat16, use_ipex, max_seq_length=512, num_of_epochs=1
+Time to tune: 1 hour 45 minutes 
+
+![image](https://github.com/allenwsh82/Intel-4th-Gen/assets/44453417/966bddbe-0a77-48b0-a8da-3bd5a242b2c2)
+
   
 ![SFT_Llama2](https://github.com/allenwsh82/Intel-4th-Gen/assets/44453417/b09ae9d8-9cc0-49c9-bf30-a5cd8e8d6388)
 
