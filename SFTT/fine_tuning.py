@@ -14,7 +14,7 @@ def main(FLAGS):
     #dataset = load_dataset("timdettmers/openassistant-guanaco", split="train")
     dataset = load_dataset("mlabonne/guanaco-llama2-1k", split="train")
 
-    model_name = "/home/smgailab/Intel/fastRAG/Llama-2-7b-chat-hf"    #Make sure you set the correct path
+    model_name = "meta-llama/Llama-2-7b-chat-hf"    #Make sure you set the correct path
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     tokenizer.pad_token = tokenizer.eos_token
     model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True)
