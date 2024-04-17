@@ -15,3 +15,4 @@ tokenizers==0.13.3
 torch==2.2.2
 transformers==4.31.0
 trl==0.8.1
+py-cpuinfo
