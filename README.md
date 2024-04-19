@@ -40,5 +40,8 @@ How to run: ./inference_with_INT4.sh
   
 ![Inference_Llama2_INT4](https://github.com/allenwsh82/Intel_SPR/assets/44453417/95b409e5-94de-4e02-a3a9-822ddbcd7102)
 
+Inference Performance Comparison:
+
+<img width="810" alt="Inference_Performance_Comparison_Intel_4th_Gen" src="https://github.com/allenwsh82/Intel_SPR/assets/44453417/693d77a8-690b-4984-b493-0bd507e1d346">
 
 
