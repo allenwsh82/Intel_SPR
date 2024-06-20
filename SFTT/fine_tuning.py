@@ -16,7 +16,7 @@ def main(FLAGS):
 
     #Get your hf_token from huggingface.co webpage
     #Use this hf token if yours can't work:    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
-    hf_token = " "   
+    hf_token = "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"   
     
     
     model_name = "meta-llama/Llama-2-7b-chat-hf"    #Make sure you set the correct path
