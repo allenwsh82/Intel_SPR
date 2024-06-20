@@ -15,7 +15,7 @@ def main(FLAGS):
     dataset = load_dataset("mlabonne/guanaco-llama2-1k", split="train")
 
     #Get your hf_token from huggingface.co webpage
-    #Use this hf token if yours can't work:    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
+    #Use this hf token if yours can't work:    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
     hf_token = " "   
     
     
