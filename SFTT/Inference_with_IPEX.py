@@ -5,7 +5,8 @@ import argparse
 import time
 from threading import Thread
 
-model_path="./fine_tuned_llama2-7B-hf-chat"
+#model_path="./fine_tuned_llama2-7B-hf-chat"
+model_path= "meta-llama/Llama-2-7b-chat-hf"
 model = AutoModelForCausalLM.from_pretrained(model_path, trust_remote_code=True, torch_dtype=torch.bfloat16)
 tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
 
@@ -30,7 +31,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Predict Tokens using `generate()` API for Llama2 model')
     parser.add_argument('--repo-id-or-model-path', type=str, default="./fine_tuned_llama2-7B-hf-chat",
                         help='The huggingface repo id for the Llama2 (e.g. `meta-llama/Llama-2-7b-chat-hf` and `meta-llama/Llama-2-13b-chat-hf`) to be downloaded'                ', or the path to the huggingface checkpoint folder')
-    parser.add_argument('--prompt', type=str, default="What are some unique things about the 37th largest city in Japan?",
+    parser.add_argument('--prompt', type=str, default="What is the total Nike earnings before interest and taxes in fiscal year 2022 in Europe, Middle East and Africa?",
                         help='Prompt to infer')
     parser.add_argument('--n-predict', type=int, default=200,
                         help='Max tokens to predict')
