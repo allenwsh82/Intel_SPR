@@ -30,8 +30,9 @@ if __name__ == '__main__':
                         help='Max tokens to predict')
 
     args = parser.parse_args()
-    model_path = args.model_path
-
+    #model_path = args.model_path
+    model_path = "meta-llama/Llama-2-7b-chat-hf"
+    
     # Load model
     model = AutoModelForCausalLM.from_pretrained(model_path, trust_remote_code=True)
  
