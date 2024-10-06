@@ -7,14 +7,17 @@ Introduction:
 Supervised fine-tuning, involves adapting a pre-trained Language Model (LLM) to a specific downstream task using labeled data. In supervised fine-tuning, the finetuning data is collected from a set of responses validated before hand. That’s the main difference to the unsupervised techniques, where data is not validated before hand. While LLM training is (usually) unsupervised, Finetuning is (usually) supervised.
 
 Installation: 
-
+```
 pip install -r requirements.txt
-
+```
 
 SFTT (Supervised Fine Tuning Trainer) contains 3 scripts to execute the following task:
 - Supervised Fine Tuning with HuggingFace Trainer API
 
-How to run: ./fine_tuning.sh
+How to run: 
+```
+./fine_tuning.sh
+```
 
 CPU: Intel 8480+ (56 cores), Memory usage: 140GB 
 Model: Llama-2-7b-chat-hf
@@ -29,14 +32,21 @@ Time to tune: 1 hour 45 minutes
 
 - Inference Fine Tuned Llama-2-7b with IPEX
 
-How to run: ./inference_with_IPEX.sh
+How to run: 
+```
+./inference_with_IPEX.sh
+```
   
 ![Inference_Llama2_IPEX](https://github.com/allenwsh82/Intel_SPR/assets/44453417/1a123121-d301-40c3-ac88-c3b2de4b7e33)
 
   
 - Inference Fine Tuned Llama-2-7b with INT4
 
-How to run: ./inference_with_INT4.sh
+How to run: 
+```
+./inference_with_INT4.sh
+```
+
   
 ![Inference_Llama2_INT4](https://github.com/allenwsh82/Intel_SPR/assets/44453417/95b409e5-94de-4e02-a3a9-822ddbcd7102)
 
